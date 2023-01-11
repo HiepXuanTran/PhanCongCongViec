@@ -1,0 +1,4 @@
+c:\users\admin\documents\visual studio 2010\Projects\PhanCongCongVien\PCCV.Public\bin\Debug\PCCV.Public.dll
+c:\users\admin\documents\visual studio 2010\Projects\PhanCongCongVien\PCCV.Public\bin\Debug\PCCV.Public.pdb
+c:\users\admin\documents\visual studio 2010\Projects\PhanCongCongVien\PCCV.Public\obj\Debug\PCCV.Public.dll
+c:\users\admin\documents\visual studio 2010\Projects\PhanCongCongVien\PCCV.Public\obj\Debug\PCCV.Public.pdb

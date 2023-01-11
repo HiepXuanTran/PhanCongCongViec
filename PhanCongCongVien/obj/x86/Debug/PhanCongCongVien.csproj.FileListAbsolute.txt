@@ -1,0 +1,17 @@
+c:\users\admin\documents\visual studio 2010\Projects\PhanCongCongVien\PhanCongCongVien\obj\x86\Debug\PhanCongCongVien.frmMain.resources
+c:\users\admin\documents\visual studio 2010\Projects\PhanCongCongVien\PhanCongCongVien\obj\x86\Debug\PhanCongCongVien.Properties.Resources.resources
+c:\users\admin\documents\visual studio 2010\Projects\PhanCongCongVien\PhanCongCongVien\obj\x86\Debug\PhanCongCongVien.csproj.GenerateResource.Cache
+c:\users\admin\documents\visual studio 2010\Projects\PhanCongCongVien\PhanCongCongVien\obj\x86\Debug\PhanCongCongVien.exe.licenses
+c:\users\admin\documents\visual studio 2010\Projects\PhanCongCongVien\PhanCongCongVien\bin\Debug\PhanCongCongVien.exe
+c:\users\admin\documents\visual studio 2010\Projects\PhanCongCongVien\PhanCongCongVien\bin\Debug\PhanCongCongVien.pdb
+c:\users\admin\documents\visual studio 2010\Projects\PhanCongCongVien\PhanCongCongVien\obj\x86\Debug\PhanCongCongVien.exe
+c:\users\admin\documents\visual studio 2010\Projects\PhanCongCongVien\PhanCongCongVien\obj\x86\Debug\PhanCongCongVien.pdb
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongVien\PhanCongCongVien\obj\x86\Debug\PhanCongCongVien.frmCV_QL_NhomCongViec.resources
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongVien\PhanCongCongVien\bin\Debug\PhanCongCongVien.exe.config
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongVien\PhanCongCongVien\bin\Debug\PCCV.BLL.dll
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongVien\PhanCongCongVien\bin\Debug\PCCV.Public.dll
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongVien\PhanCongCongVien\bin\Debug\PCCV.BLL.pdb
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongVien\PhanCongCongVien\bin\Debug\PCCV.Public.pdb
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongVien\PhanCongCongVien\obj\x86\Debug\PhanCongCongVien.csprojResolveAssemblyReference.cache
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongVien\PhanCongCongVien\bin\Debug\PCCV.Data.dll
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongVien\PhanCongCongVien\bin\Debug\PCCV.Data.pdb
