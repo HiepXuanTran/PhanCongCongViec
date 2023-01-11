@@ -126,6 +126,7 @@
             this.barButtonItem_Refresh.Id = 4;
             this.barButtonItem_Refresh.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem_Refresh.LargeGlyph")));
             this.barButtonItem_Refresh.Name = "barButtonItem_Refresh";
+            this.barButtonItem_Refresh.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem_Refresh_ItemClick);
             // 
             // barButtonItem_Them
             // 
@@ -142,6 +143,7 @@
             this.barButtonItem_Sua.Id = 2;
             this.barButtonItem_Sua.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem_Sua.LargeGlyph")));
             this.barButtonItem_Sua.Name = "barButtonItem_Sua";
+            this.barButtonItem_Sua.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem_Sua_ItemClick);
             // 
             // barButtonItem_Xoa
             // 
@@ -150,6 +152,7 @@
             this.barButtonItem_Xoa.Id = 3;
             this.barButtonItem_Xoa.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem_Xoa.LargeGlyph")));
             this.barButtonItem_Xoa.Name = "barButtonItem_Xoa";
+            this.barButtonItem_Xoa.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem_Xoa_ItemClick);
             // 
             // barButtonItem_Luu
             // 
@@ -158,6 +161,7 @@
             this.barButtonItem_Luu.Id = 6;
             this.barButtonItem_Luu.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem_Luu.LargeGlyph")));
             this.barButtonItem_Luu.Name = "barButtonItem_Luu";
+            this.barButtonItem_Luu.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem_Luu_ItemClick);
             // 
             // barButtonItem_Undo
             // 
@@ -166,6 +170,7 @@
             this.barButtonItem_Undo.Id = 7;
             this.barButtonItem_Undo.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem_Undo.LargeGlyph")));
             this.barButtonItem_Undo.Name = "barButtonItem_Undo";
+            this.barButtonItem_Undo.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem_Undo_ItemClick);
             // 
             // barButtonItem_In
             // 

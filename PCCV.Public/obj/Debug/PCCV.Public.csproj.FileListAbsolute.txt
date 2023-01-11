@@ -2,3 +2,8 @@ c:\users\admin\documents\visual studio 2010\Projects\PhanCongCongVien\PCCV.Publi
 c:\users\admin\documents\visual studio 2010\Projects\PhanCongCongVien\PCCV.Public\bin\Debug\PCCV.Public.pdb
 c:\users\admin\documents\visual studio 2010\Projects\PhanCongCongVien\PCCV.Public\obj\Debug\PCCV.Public.dll
 c:\users\admin\documents\visual studio 2010\Projects\PhanCongCongVien\PCCV.Public\obj\Debug\PCCV.Public.pdb
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PCCV.Public\bin\Debug\PCCV.Public.dll
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PCCV.Public\bin\Debug\PCCV.Public.pdb
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PCCV.Public\obj\Debug\PCCV.Public.dll
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PCCV.Public\obj\Debug\PCCV.Public.pdb
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PCCV.Public\obj\Debug\PCCV.Public.csprojResolveAssemblyReference.cache
