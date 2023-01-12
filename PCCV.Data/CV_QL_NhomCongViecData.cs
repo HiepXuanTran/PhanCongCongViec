@@ -51,7 +51,6 @@ namespace PCCV.Data
             giatri[7] = Public.CV_QL_NhomCongViec_DateEditor1;
             giatri[8] = Public.CV_QL_NhomCongViec_HienThi1;
             giatri[9] = Public.CV_QL_NhomCongViec_SuDung1;
-
             return cls.Update("CV_QL_NhomCongViec_Insert", bien, giatri, thamso);
         }
         // Sửa công việc

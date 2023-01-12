@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CV_QL_NhomCongViecBLL.cs" />
+    <Compile Include="CV_TD_LichSuCongViecBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

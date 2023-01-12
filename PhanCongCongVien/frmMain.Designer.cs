@@ -118,6 +118,7 @@
             this.btn_QLCV_ChiTietCV.Id = 8;
             this.btn_QLCV_ChiTietCV.Name = "btn_QLCV_ChiTietCV";
             this.btn_QLCV_ChiTietCV.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_QLCV_ChiTietCV.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_QLCV_ChiTietCV_ItemClick);
             // 
             // btn_QLCV_LichSuCV
             // 
@@ -126,6 +127,7 @@
             this.btn_QLCV_LichSuCV.Id = 9;
             this.btn_QLCV_LichSuCV.Name = "btn_QLCV_LichSuCV";
             this.btn_QLCV_LichSuCV.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_QLCV_LichSuCV.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_QLCV_LichSuCV_ItemClick);
             // 
             // btn_QLCV_LichSuNhanSu
             // 

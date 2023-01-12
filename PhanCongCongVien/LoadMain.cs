@@ -8,7 +8,7 @@ namespace PhanCongCongVien
     class LoadMain
     {
         static frmCV_QL_NhomCongViec m_frmCV_QL_NhomCongViec = null;
-        public static void HienThiCV_NCV_QuanLy()
+        public static void HienThiCV_QL_NhomCongViec()
         {
             if (m_frmCV_QL_NhomCongViec == null || m_frmCV_QL_NhomCongViec.IsDisposed)
             {
@@ -19,6 +19,7 @@ namespace PhanCongCongVien
             else
                 m_frmCV_QL_NhomCongViec.Activate();
         }
+      //  static frmCV_TD_LichSuCongViec m = null;
     }
     public class BienToanCuc
     {

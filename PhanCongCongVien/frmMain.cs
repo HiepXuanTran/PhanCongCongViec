@@ -40,12 +40,22 @@ namespace PhanCongCongVien
 
         private void btn_QLCV_NhomCongViec_ItemClick(object sender, ItemClickEventArgs e)
         {
-            LoadMain.HienThiCV_NCV_QuanLy();
+            LoadMain.HienThiCV_QL_NhomCongViec();
         }
 
         private void frmMain_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_QLCV_ChiTietCV_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
+        }
+
+        private void btn_QLCV_LichSuCV_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            
         }
     }
 }

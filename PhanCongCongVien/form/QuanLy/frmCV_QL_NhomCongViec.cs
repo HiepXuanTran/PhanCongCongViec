@@ -26,7 +26,7 @@ namespace PhanCongCongVien
             barButtonItem_Undo.Enabled = false;
             Lock_Unlock_Control_Input(false);
             Lock_Control_Input_Always();
-
+            CV_QL_NhomCongViec_bandedGridView.OptionsView.NewItemRowPosition = DevExpress.XtraGrid.Views.Grid.NewItemRowPosition.None;
             // Gán tạm Thông tin người dùng
            BienToanCuc.HT_USER_ID = 1;
            BienToanCuc.HT_USER_Ten = "Trần Xuân Hiệp" ;
@@ -188,6 +188,7 @@ namespace PhanCongCongVien
 
         private void barButtonItem_Luu_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            int kq = -1;
             try
             {
                 if (CV_QL_NhomCongViecAdd == true || CV_QL_NhomCongViecEdit == true)
@@ -213,38 +214,51 @@ namespace PhanCongCongVien
                         {
                             CV_QL_NhomCongViecPublic Public = new CV_QL_NhomCongViecPublic();
                             
-                            Public.HT_USER_Create1 = BienToanCuc.HT_USER_ID;
-                            Public.HT_USER_Editor1 = BienToanCuc.HT_USER_ID;
-                            Public.CV_QL_NhomCongViec_DateCreate1 = DateTime.Now;
-                            Public.CV_QL_NhomCongViec_DateEditor1 = DateTime.Now;
+                            
+                            
                             Public.CV_QL_NhomCongViec_HienThi1 = true;
                             Public.CV_QL_NhomCongViec_SuDung1 = BienToanCuc.HT_USER_Ten;
                             Public.CV_QL_NhomCongViec_TenNhomCongViec11 = CV_QL_NhomCongViec_bandedGridView.GetFocusedRowCellDisplayText(CV_QL_NhomCongViec_TenNhomCongViec1);
                             Public.CV_QL_NhomCongViec_TenNhomCongViec21 = CV_QL_NhomCongViec_bandedGridView.GetFocusedRowCellDisplayText(CV_QL_NhomCongViec_TenNhomCongViec2);
-                            if (string.IsNullOrWhiteSpace(Convert.ToString(CV_QL_NhomCongViec_bandedGridView.GetFocusedRowCellDisplayText(CV_QL_NhomCongViec_MoTa))))
+                            if (!string.IsNullOrWhiteSpace(Convert.ToString(CV_QL_NhomCongViec_bandedGridView.GetFocusedRowCellDisplayText(CV_QL_NhomCongViec_MoTa))))
                             {
                                 Public.CV_QL_NhomCongViec_MoTa1 = CV_QL_NhomCongViec_bandedGridView.GetFocusedRowCellDisplayText(CV_QL_NhomCongViec_MoTa);
                             }
-                            if (string.IsNullOrWhiteSpace(Convert.ToString(CV_QL_NhomCongViec_bandedGridView.GetFocusedRowCellDisplayText(CV_QL_NhomCongViec_GhiChu))))
+                            if (!string.IsNullOrWhiteSpace(Convert.ToString(CV_QL_NhomCongViec_bandedGridView.GetFocusedRowCellDisplayText(CV_QL_NhomCongViec_GhiChu))))
                             {
                                 Public.CV_QL_NhomCongViec_GhiChu1 = CV_QL_NhomCongViec_bandedGridView.GetFocusedRowCellDisplayText(CV_QL_NhomCongViec_GhiChu);
                             }
                             if (CV_QL_NhomCongViecAdd == true)
                             {
-                                 int kq = cls.CV_QL_NhomCongViec_Add(Public);
+                                Public.CV_QL_NhomCongViec_DateCreate1 = DateTime.Now;
+                                Public.HT_USER_Create1 = BienToanCuc.HT_USER_ID;
+                                kq = cls.CV_QL_NhomCongViec_Add(Public);
                             }
 
                             if (CV_QL_NhomCongViecEdit == true)
                             {
+                                Public.HT_USER_Editor1 = BienToanCuc.HT_USER_ID;
+                                Public.CV_QL_NhomCongViec_DateCreate1 = Convert.ToDateTime(CV_QL_NhomCongViec_bandedGridView.GetFocusedRowCellValue(CV_QL_NhomCongViec_DateCreate));
+                                Public.CV_QL_NhomCongViec_DateEditor1 = DateTime.Now;
                                  Public.CV_QL_NhomCongViec_ID1 = Convert.ToInt32(CV_QL_NhomCongViec_bandedGridView.GetFocusedRowCellDisplayText(CV_QL_NhomCongViec_ID));
-                                 int kq = cls.CV_QL_NhomCongViec_Edit(Public);
+                                 kq = cls.CV_QL_NhomCongViec_Edit(Public);
                             }
                         }
                         CV_QL_NhomCongViec_bandedGridView.MoveNext();
                     }
                 }
                 TraVe_DongDLChon(); //Trả về dòng chọn đầu tiên
-
+                if (kq > 0)
+                {
+                    if (CV_QL_NhomCongViecAdd == true)
+                    {
+                        MessageBox.Show("Thêm Thành Công!");
+                    }
+                    else if (CV_QL_NhomCongViecEdit == true)
+                    {
+                        MessageBox.Show("Sửa Thành Công!");
+                    }
+                }
                 frmCV_QL_NhomCongViec_Load(sender, e);
                 Lock_Unlock_Control_Input(false); //Khóa điều khiển nhập dữ liệu
                 Lock_Unlock_Control(true); //Mở khóa toàn bộ
