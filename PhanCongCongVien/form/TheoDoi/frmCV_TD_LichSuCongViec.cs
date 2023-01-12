@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using PCCV.BLL;
+using PCCV.Public;
 namespace PhanCongCongVien.form
 {
     public partial class frmCV_TD_LichSuCongViec : Form
@@ -40,11 +41,26 @@ namespace PhanCongCongVien.form
         }
         private void frmCV_TD_LichSuCongViec_Load(object sender, EventArgs e)
         {
-            gridControl1.DataSource = cls.LoadLichSuCongViec_LoadAll();
+            if (BienToanCuc.idCongViec > 0)
+            {
+                CV_QL_NhomCongViecPublic Public = new CV_QL_NhomCongViecPublic();
+                Public.CV_QL_NhomCongViec_ID1 = BienToanCuc.idCongViec;
+                gridControl1.DataSource = cls.LoadLichSuCongViec_Load1(Public);
+            }
+            else
+            {
+                gridControl1.DataSource = cls.LoadLichSuCongViec_LoadAll();
+            }
             Lock_Unlock_Control_Input(false);
             Lock_Control_Input_Always();
             BienToanCuc.HT_USER_ID = 1;
             BienToanCuc.HT_USER_Ten = "Trần Xuân Hiệp";
+        }
+
+        private void CV_QL_NhomCongViec_BtnEdit_Click(object sender, EventArgs e)
+        {
+            frmCV_TD_LichSuCongViec m_frmCV_TD_LichSuCongViec = new frmCV_TD_LichSuCongViec();
+            m_frmCV_TD_LichSuCongViec.ShowDialog();
         }
     }
 }

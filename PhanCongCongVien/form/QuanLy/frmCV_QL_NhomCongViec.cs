@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using PCCV.Public;
 using PCCV.BLL;
+using PhanCongCongVien.form;
 namespace PhanCongCongVien
 {
     public partial class frmCV_QL_NhomCongViec : Form
@@ -275,6 +276,13 @@ namespace PhanCongCongVien
         private void barButtonItem_Refresh_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             frmCV_QL_NhomCongViec_Load(sender, e);
+        }
+
+        private void CV_QL_NhomCongViec_Edit_Click(object sender, EventArgs e)
+        {
+            BienToanCuc.idCongViec = Convert.ToInt32(CV_QL_NhomCongViec_bandedGridView.GetFocusedRowCellValue(CV_QL_NhomCongViec_ID));
+            frmCV_TD_LichSuCongViec m_frmCV_TD_LichSuCongViec = new frmCV_TD_LichSuCongViec();
+            m_frmCV_TD_LichSuCongViec.ShowDialog();
         }
     }
 }

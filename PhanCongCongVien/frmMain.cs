@@ -55,7 +55,7 @@ namespace PhanCongCongVien
 
         private void btn_QLCV_LichSuCV_ItemClick(object sender, ItemClickEventArgs e)
         {
-            
+            LoadMain.HienThiCV_TD_LichSuCongViec();
         }
     }
 }

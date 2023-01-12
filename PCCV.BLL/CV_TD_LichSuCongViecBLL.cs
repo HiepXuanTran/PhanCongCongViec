@@ -15,6 +15,9 @@ namespace PCCV.BLL
         {
             return cls.LoadLichSuCongViec_LoadAll();
         }
-
+        public DataTable LoadLichSuCongViec_Load1(CV_QL_NhomCongViecPublic Public)
+        {
+            return cls.LoadLichSuCongViec_Load1(Public);
+        }
     }
 }

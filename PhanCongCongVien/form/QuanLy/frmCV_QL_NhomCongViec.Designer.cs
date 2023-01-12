@@ -57,6 +57,8 @@
             this.CV_QL_NhomCongViec_TenNhomCongViec2 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.CV_QL_NhomCongViec_MoTa = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.CV_QL_NhomCongViec_GhiChu = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.CV_QL_NhomCongViec_XemLichSu = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.CV_QL_NhomCongViec_Edit = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.gridBand2 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.HT_USER_Create = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.CV_QL_NhomCongViec_DateCreate = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
@@ -69,6 +71,7 @@
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CV_QL_NhomCongViec_bandedGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CV_QL_NhomCongViec_Edit)).BeginInit();
             this.SuspendLayout();
             // 
             // barDockControlRight
@@ -236,6 +239,8 @@
             this.gridControl1.MainView = this.CV_QL_NhomCongViec_bandedGridView;
             this.gridControl1.MenuManager = this.barManager1;
             this.gridControl1.Name = "gridControl1";
+            this.gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.CV_QL_NhomCongViec_Edit});
             this.gridControl1.Size = new System.Drawing.Size(949, 383);
             this.gridControl1.TabIndex = 1;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -259,7 +264,8 @@
             this.CV_QL_NhomCongViec_DateEditor,
             this.CV_QL_NhomCongViec_HienThi,
             this.CV_QL_NhomCongViec_SuDung,
-            this.CV_QL_NhomCongViec_TenNhomCongViec1});
+            this.CV_QL_NhomCongViec_TenNhomCongViec1,
+            this.CV_QL_NhomCongViec_XemLichSu});
             this.CV_QL_NhomCongViec_bandedGridView.GridControl = this.gridControl1;
             this.CV_QL_NhomCongViec_bandedGridView.GroupCount = 1;
             this.CV_QL_NhomCongViec_bandedGridView.Name = "CV_QL_NhomCongViec_bandedGridView";
@@ -273,7 +279,7 @@
             // 
             // gridBand1
             // 
-            this.gridBand1.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand1.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold);
             this.gridBand1.AppearanceHeader.Options.UseFont = true;
             this.gridBand1.Columns.Add(this.CV_QL_NhomCongViecChon);
             this.gridBand1.Columns.Add(this.CV_QL_NhomCongViec_ID);
@@ -283,9 +289,9 @@
             // 
             // CV_QL_NhomCongViecChon
             // 
-            this.CV_QL_NhomCongViecChon.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViecChon.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F);
             this.CV_QL_NhomCongViecChon.AppearanceCell.Options.UseFont = true;
-            this.CV_QL_NhomCongViecChon.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViecChon.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F);
             this.CV_QL_NhomCongViecChon.AppearanceHeader.Options.UseFont = true;
             this.CV_QL_NhomCongViecChon.Caption = "Chọn";
             this.CV_QL_NhomCongViecChon.FieldName = "CV_QL_NhomCongViecChon";
@@ -295,9 +301,9 @@
             // 
             // CV_QL_NhomCongViec_ID
             // 
-            this.CV_QL_NhomCongViec_ID.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViec_ID.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F);
             this.CV_QL_NhomCongViec_ID.AppearanceCell.Options.UseFont = true;
-            this.CV_QL_NhomCongViec_ID.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViec_ID.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F);
             this.CV_QL_NhomCongViec_ID.AppearanceHeader.Options.UseFont = true;
             this.CV_QL_NhomCongViec_ID.Caption = "ID";
             this.CV_QL_NhomCongViec_ID.FieldName = "CV_QL_NhomCongViec_ID";
@@ -308,7 +314,7 @@
             this.gridBand3.AppearanceHeader.BackColor = System.Drawing.Color.Aqua;
             this.gridBand3.AppearanceHeader.BackColor2 = System.Drawing.Color.Aqua;
             this.gridBand3.AppearanceHeader.BorderColor = System.Drawing.Color.Aqua;
-            this.gridBand3.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand3.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold);
             this.gridBand3.AppearanceHeader.ForeColor = System.Drawing.Color.DarkRed;
             this.gridBand3.AppearanceHeader.Options.UseBackColor = true;
             this.gridBand3.AppearanceHeader.Options.UseBorderColor = true;
@@ -321,15 +327,16 @@
             this.gridBand3.Columns.Add(this.CV_QL_NhomCongViec_TenNhomCongViec2);
             this.gridBand3.Columns.Add(this.CV_QL_NhomCongViec_MoTa);
             this.gridBand3.Columns.Add(this.CV_QL_NhomCongViec_GhiChu);
+            this.gridBand3.Columns.Add(this.CV_QL_NhomCongViec_XemLichSu);
             this.gridBand3.Name = "gridBand3";
             this.gridBand3.VisibleIndex = 1;
-            this.gridBand3.Width = 750;
+            this.gridBand3.Width = 825;
             // 
             // CV_QL_NhomCongViec_TenNhomCongViec1
             // 
-            this.CV_QL_NhomCongViec_TenNhomCongViec1.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViec_TenNhomCongViec1.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F);
             this.CV_QL_NhomCongViec_TenNhomCongViec1.AppearanceCell.Options.UseFont = true;
-            this.CV_QL_NhomCongViec_TenNhomCongViec1.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViec_TenNhomCongViec1.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F);
             this.CV_QL_NhomCongViec_TenNhomCongViec1.AppearanceHeader.Options.UseFont = true;
             this.CV_QL_NhomCongViec_TenNhomCongViec1.Caption = "Tên nhóm công việc cha";
             this.CV_QL_NhomCongViec_TenNhomCongViec1.FieldName = "CV_QL_NhomCongViec_TenNhomCongViec1";
@@ -339,9 +346,9 @@
             // 
             // CV_QL_NhomCongViec_TenNhomCongViec2
             // 
-            this.CV_QL_NhomCongViec_TenNhomCongViec2.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViec_TenNhomCongViec2.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F);
             this.CV_QL_NhomCongViec_TenNhomCongViec2.AppearanceCell.Options.UseFont = true;
-            this.CV_QL_NhomCongViec_TenNhomCongViec2.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViec_TenNhomCongViec2.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F);
             this.CV_QL_NhomCongViec_TenNhomCongViec2.AppearanceHeader.Options.UseFont = true;
             this.CV_QL_NhomCongViec_TenNhomCongViec2.Caption = "Tên nhóm công việc con";
             this.CV_QL_NhomCongViec_TenNhomCongViec2.FieldName = "CV_QL_NhomCongViec_TenNhomCongViec2";
@@ -351,9 +358,9 @@
             // 
             // CV_QL_NhomCongViec_MoTa
             // 
-            this.CV_QL_NhomCongViec_MoTa.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViec_MoTa.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F);
             this.CV_QL_NhomCongViec_MoTa.AppearanceCell.Options.UseFont = true;
-            this.CV_QL_NhomCongViec_MoTa.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViec_MoTa.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F);
             this.CV_QL_NhomCongViec_MoTa.AppearanceHeader.Options.UseFont = true;
             this.CV_QL_NhomCongViec_MoTa.Caption = "Mô tả";
             this.CV_QL_NhomCongViec_MoTa.FieldName = "CV_QL_NhomCongViec_MoTa";
@@ -363,15 +370,30 @@
             // 
             // CV_QL_NhomCongViec_GhiChu
             // 
-            this.CV_QL_NhomCongViec_GhiChu.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViec_GhiChu.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F);
             this.CV_QL_NhomCongViec_GhiChu.AppearanceCell.Options.UseFont = true;
-            this.CV_QL_NhomCongViec_GhiChu.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViec_GhiChu.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F);
             this.CV_QL_NhomCongViec_GhiChu.AppearanceHeader.Options.UseFont = true;
             this.CV_QL_NhomCongViec_GhiChu.Caption = "Ghi chú";
             this.CV_QL_NhomCongViec_GhiChu.FieldName = "CV_QL_NhomCongViec_GhiChu";
             this.CV_QL_NhomCongViec_GhiChu.Name = "CV_QL_NhomCongViec_GhiChu";
             this.CV_QL_NhomCongViec_GhiChu.Visible = true;
             this.CV_QL_NhomCongViec_GhiChu.Width = 184;
+            // 
+            // CV_QL_NhomCongViec_XemLichSu
+            // 
+            this.CV_QL_NhomCongViec_XemLichSu.Caption = "Xem lịch sử";
+            this.CV_QL_NhomCongViec_XemLichSu.ColumnEdit = this.CV_QL_NhomCongViec_Edit;
+            this.CV_QL_NhomCongViec_XemLichSu.Name = "CV_QL_NhomCongViec_XemLichSu";
+            this.CV_QL_NhomCongViec_XemLichSu.Visible = true;
+            // 
+            // CV_QL_NhomCongViec_Edit
+            // 
+            this.CV_QL_NhomCongViec_Edit.AutoHeight = false;
+            this.CV_QL_NhomCongViec_Edit.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.CV_QL_NhomCongViec_Edit.Name = "CV_QL_NhomCongViec_Edit";
+            this.CV_QL_NhomCongViec_Edit.Click += new System.EventHandler(this.CV_QL_NhomCongViec_Edit_Click);
             // 
             // gridBand2
             // 
@@ -398,9 +420,9 @@
             // 
             // HT_USER_Create
             // 
-            this.HT_USER_Create.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HT_USER_Create.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F);
             this.HT_USER_Create.AppearanceCell.Options.UseFont = true;
-            this.HT_USER_Create.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HT_USER_Create.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F);
             this.HT_USER_Create.AppearanceHeader.Options.UseFont = true;
             this.HT_USER_Create.Caption = "ID Người tạo";
             this.HT_USER_Create.FieldName = "HT_USER_Create";
@@ -410,9 +432,9 @@
             // 
             // CV_QL_NhomCongViec_DateCreate
             // 
-            this.CV_QL_NhomCongViec_DateCreate.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViec_DateCreate.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F);
             this.CV_QL_NhomCongViec_DateCreate.AppearanceCell.Options.UseFont = true;
-            this.CV_QL_NhomCongViec_DateCreate.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViec_DateCreate.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F);
             this.CV_QL_NhomCongViec_DateCreate.AppearanceHeader.Options.UseFont = true;
             this.CV_QL_NhomCongViec_DateCreate.Caption = "Ngày tạo";
             this.CV_QL_NhomCongViec_DateCreate.FieldName = "CV_QL_NhomCongViec_DateCreate";
@@ -422,9 +444,9 @@
             // 
             // HT_USER_Editor
             // 
-            this.HT_USER_Editor.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HT_USER_Editor.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F);
             this.HT_USER_Editor.AppearanceCell.Options.UseFont = true;
-            this.HT_USER_Editor.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HT_USER_Editor.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F);
             this.HT_USER_Editor.AppearanceHeader.Options.UseFont = true;
             this.HT_USER_Editor.Caption = "ID Người sửa";
             this.HT_USER_Editor.FieldName = "HT_USER_Editor";
@@ -434,9 +456,9 @@
             // 
             // CV_QL_NhomCongViec_DateEditor
             // 
-            this.CV_QL_NhomCongViec_DateEditor.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViec_DateEditor.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F);
             this.CV_QL_NhomCongViec_DateEditor.AppearanceCell.Options.UseFont = true;
-            this.CV_QL_NhomCongViec_DateEditor.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViec_DateEditor.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F);
             this.CV_QL_NhomCongViec_DateEditor.AppearanceHeader.Options.UseFont = true;
             this.CV_QL_NhomCongViec_DateEditor.Caption = "Ngày sửa";
             this.CV_QL_NhomCongViec_DateEditor.FieldName = "CV_QL_NhomCongViec_DateEditor";
@@ -446,9 +468,9 @@
             // 
             // CV_QL_NhomCongViec_HienThi
             // 
-            this.CV_QL_NhomCongViec_HienThi.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViec_HienThi.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F);
             this.CV_QL_NhomCongViec_HienThi.AppearanceCell.Options.UseFont = true;
-            this.CV_QL_NhomCongViec_HienThi.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViec_HienThi.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F);
             this.CV_QL_NhomCongViec_HienThi.AppearanceHeader.Options.UseFont = true;
             this.CV_QL_NhomCongViec_HienThi.Caption = "Hiển Thị";
             this.CV_QL_NhomCongViec_HienThi.FieldName = "CV_QL_NhomCongViec_HienThi";
@@ -458,9 +480,9 @@
             // 
             // CV_QL_NhomCongViec_SuDung
             // 
-            this.CV_QL_NhomCongViec_SuDung.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViec_SuDung.AppearanceCell.Font = new System.Drawing.Font("Times New Roman", 9F);
             this.CV_QL_NhomCongViec_SuDung.AppearanceCell.Options.UseFont = true;
-            this.CV_QL_NhomCongViec_SuDung.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV_QL_NhomCongViec_SuDung.AppearanceHeader.Font = new System.Drawing.Font("Times New Roman", 10.8F);
             this.CV_QL_NhomCongViec_SuDung.AppearanceHeader.Options.UseFont = true;
             this.CV_QL_NhomCongViec_SuDung.Caption = "Người tương tác";
             this.CV_QL_NhomCongViec_SuDung.FieldName = "CV_QL_NhomCongViec_SuDung";
@@ -502,6 +524,7 @@
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CV_QL_NhomCongViec_bandedGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CV_QL_NhomCongViec_Edit)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -544,5 +567,7 @@
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand1;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand3;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand2;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn CV_QL_NhomCongViec_XemLichSu;
+        private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit CV_QL_NhomCongViec_Edit;
     }
 }

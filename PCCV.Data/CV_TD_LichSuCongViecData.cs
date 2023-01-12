@@ -14,5 +14,14 @@ namespace PCCV.Data
         {
             return cls.LayDuLieu("CV_TD_LichSuCongViec_Select");
         }
+        public DataTable LoadLichSuCongViec_Load1(CV_QL_NhomCongViecPublic Public)
+        {
+            int thamso = 1;
+            string[] bien = new string[thamso];
+            object[] giatri = new object[thamso];
+            bien[0] = "@CV_TD_LichSuCongViecID";
+            giatri[0] = Public.CV_QL_NhomCongViec_ID1;
+            return cls.LayDuLieu("CV_TD_LichSuCongViec_Select1", bien, giatri, thamso);
+        }
     }
 }

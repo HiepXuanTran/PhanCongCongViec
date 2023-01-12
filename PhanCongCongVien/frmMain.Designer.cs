@@ -123,6 +123,7 @@
             // btn_QLCV_LichSuCV
             // 
             this.btn_QLCV_LichSuCV.Caption = "Lịch Sử Công Việc";
+            this.btn_QLCV_LichSuCV.Enabled = false;
             this.btn_QLCV_LichSuCV.Glyph = ((System.Drawing.Image)(resources.GetObject("btn_QLCV_LichSuCV.Glyph")));
             this.btn_QLCV_LichSuCV.Id = 9;
             this.btn_QLCV_LichSuCV.Name = "btn_QLCV_LichSuCV";
