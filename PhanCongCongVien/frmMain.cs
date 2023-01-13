@@ -32,10 +32,10 @@ namespace PhanCongCongVien
 
         }
 
-        //Nút Quản lý Nhóm công việc 
+        //Nút Quản lý công việc 
         private void btn_QLCV_CongViec_ItemClick(object sender, ItemClickEventArgs e)
         {
-            
+            LoadMain.HienThiCV_QL_CongViec();
         }
 
         private void btn_QLCV_NhomCongViec_ItemClick(object sender, ItemClickEventArgs e)
@@ -56,6 +56,11 @@ namespace PhanCongCongVien
         private void btn_QLCV_LichSuCV_ItemClick(object sender, ItemClickEventArgs e)
         {
             LoadMain.HienThiCV_TD_LichSuCongViec();
+        }
+
+        private void btn_QLCV_PhanCong_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
         }
     }
 }

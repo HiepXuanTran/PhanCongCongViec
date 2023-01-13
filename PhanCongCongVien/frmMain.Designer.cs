@@ -101,6 +101,7 @@
             this.btn_QLCV_PhanCong.Id = 6;
             this.btn_QLCV_PhanCong.Name = "btn_QLCV_PhanCong";
             this.btn_QLCV_PhanCong.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_QLCV_PhanCong.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_QLCV_PhanCong_ItemClick);
             // 
             // btn_QLCV_NhomCongViec
             // 

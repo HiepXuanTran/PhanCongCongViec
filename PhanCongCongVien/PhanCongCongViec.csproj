@@ -56,6 +56,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="form\QuanLy\frmCV_QL_CongViec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\QuanLy\frmCV_QL_CongViec.Designer.cs">
+      <DependentUpon>frmCV_QL_CongViec.cs</DependentUpon>
+    </Compile>
     <Compile Include="form\TheoDoi\frmCV_TD_LichSuCongViec.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     <Compile Include="LoadMain.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="form\QuanLy\frmCV_QL_CongViec.resx">
+      <DependentUpon>frmCV_QL_CongViec.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="form\TheoDoi\frmCV_TD_LichSuCongViec.resx">
       <DependentUpon>frmCV_TD_LichSuCongViec.cs</DependentUpon>
     </EmbeddedResource>

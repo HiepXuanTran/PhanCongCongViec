@@ -41,12 +41,14 @@ namespace PhanCongCongVien.form
         }
         private void frmCV_TD_LichSuCongViec_Load(object sender, EventArgs e)
         {
+            // nếu click vào xem lịch sử
             if (BienToanCuc.idCongViec > 0)
             {
                 CV_QL_NhomCongViecPublic Public = new CV_QL_NhomCongViecPublic();
                 Public.CV_QL_NhomCongViec_ID1 = BienToanCuc.idCongViec;
                 gridControl1.DataSource = cls.LoadLichSuCongViec_Load1(Public);
             }
+            // không click vào xme lịch sử
             else
             {
                 gridControl1.DataSource = cls.LoadLichSuCongViec_LoadAll();
@@ -56,7 +58,7 @@ namespace PhanCongCongVien.form
             BienToanCuc.HT_USER_ID = 1;
             BienToanCuc.HT_USER_Ten = "Trần Xuân Hiệp";
         }
-
+        // xem lịch sử click
         private void CV_QL_NhomCongViec_BtnEdit_Click(object sender, EventArgs e)
         {
             frmCV_TD_LichSuCongViec m_frmCV_TD_LichSuCongViec = new frmCV_TD_LichSuCongViec();

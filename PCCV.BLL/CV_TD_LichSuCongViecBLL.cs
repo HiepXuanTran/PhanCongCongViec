@@ -10,7 +10,7 @@ namespace PCCV.BLL
 {
     public class CV_TD_LichSuCongViecBLL
     {
-        CV_TD_LichSuCongViecData cls = new CV_TD_LichSuCongViecData();
+        CV_TD_LichSuNhomCongViecData cls = new CV_TD_LichSuNhomCongViecData();
         public DataTable LoadLichSuCongViec_LoadAll()
         {
             return cls.LoadLichSuCongViec_LoadAll();

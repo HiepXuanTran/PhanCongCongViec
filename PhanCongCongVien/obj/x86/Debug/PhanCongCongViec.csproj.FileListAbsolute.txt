@@ -50,3 +50,4 @@ C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PhanCongCo
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PhanCongCongViec\PhanCongCongVien\obj\x86\Debug\PhanCongCongViec.csproj.GenerateResource.Cache
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PhanCongCongViec\PhanCongCongVien\obj\x86\Debug\PhanCongCongVien.exe.licenses
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PhanCongCongViec\PhanCongCongVien\obj\x86\Debug\PhanCongCongVien.form.frmCV_TD_LichSuCongViec.resources
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PhanCongCongViec\PhanCongCongVien\obj\x86\Debug\PhanCongCongVien.form.QuanLy.frmCV_QL_CongViec.resources
