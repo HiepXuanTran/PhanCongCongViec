@@ -42,7 +42,11 @@
   <ItemGroup>
     <Compile Include="CV_QL_CongViecBLL.cs" />
     <Compile Include="CV_QL_NhomCongViecBLL.cs" />
+<<<<<<< HEAD
+    <Compile Include="CV_TT_NhanSuBLL.cs" />
+=======
     <Compile Include="CV_TD_LichSuCongViecBLL.cs" />
+>>>>>>> fbd2cbb60ce32ac92e1d2d09fce8143fc4c3ca2c
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

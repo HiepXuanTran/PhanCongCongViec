@@ -278,11 +278,17 @@ namespace PhanCongCongVien
             frmCV_QL_NhomCongViec_Load(sender, e);
         }
 
+<<<<<<< HEAD
+        private void gridControl1_Click(object sender, EventArgs e)
+        {
+
+=======
         private void CV_QL_NhomCongViec_Edit_Click(object sender, EventArgs e)
         {
             BienToanCuc.idCongViec = Convert.ToInt32(CV_QL_NhomCongViec_bandedGridView.GetFocusedRowCellValue(CV_QL_NhomCongViec_ID));
             frmCV_TD_LichSuCongViec m_frmCV_TD_LichSuCongViec = new frmCV_TD_LichSuCongViec();
             m_frmCV_TD_LichSuCongViec.ShowDialog();
+>>>>>>> fbd2cbb60ce32ac92e1d2d09fce8143fc4c3ca2c
         }
     }
 }

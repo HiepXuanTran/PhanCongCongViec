@@ -48,6 +48,11 @@ namespace PhanCongCongVien
 
         }
 
+<<<<<<< HEAD
+        private void btn_QLCV_NhanSu_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            LoadMain.HienThiCV_NS_ThongTin();
+=======
         private void btn_QLCV_ChiTietCV_ItemClick(object sender, ItemClickEventArgs e)
         {
 
@@ -61,6 +66,7 @@ namespace PhanCongCongVien
         private void btn_QLCV_PhanCong_ItemClick(object sender, ItemClickEventArgs e)
         {
 
+>>>>>>> fbd2cbb60ce32ac92e1d2d09fce8143fc4c3ca2c
         }
     }
 }

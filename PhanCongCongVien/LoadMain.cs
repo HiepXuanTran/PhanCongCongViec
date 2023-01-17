@@ -2,8 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+<<<<<<< HEAD
+
+
+=======
 using PhanCongCongVien.form;
 using PhanCongCongVien.form.QuanLy;
+>>>>>>> fbd2cbb60ce32ac92e1d2d09fce8143fc4c3ca2c
 namespace PhanCongCongVien
 {
     class LoadMain
@@ -21,6 +26,22 @@ namespace PhanCongCongVien
             else
                 m_frmCV_QL_NhomCongViec.Activate();
         }
+<<<<<<< HEAD
+
+        static frmCV_TT_NhanSu m_frmCV_TT_NhanSu = null;
+        public static void HienThiCV_NS_ThongTin()
+        {
+            if (m_frmCV_TT_NhanSu == null || m_frmCV_TT_NhanSu.IsDisposed)
+            {
+                m_frmCV_TT_NhanSu = new frmCV_TT_NhanSu();
+                m_frmCV_TT_NhanSu.MdiParent = frmMain.ActiveForm;
+                m_frmCV_TT_NhanSu.Show();
+            }
+            else
+                m_frmCV_TT_NhanSu.Activate();
+        }
+
+=======
         // load form hiển thị lịch sử công việc
         static frmCV_TD_LichSuCongViec m_frmCV_TD_LichSuCongViec = null;
         public static void HienThiCV_TD_LichSuCongViec()
@@ -46,6 +67,7 @@ namespace PhanCongCongVien
             else
                 m_frmCV_QL_CongViec.Activate();
         }
+>>>>>>> fbd2cbb60ce32ac92e1d2d09fce8143fc4c3ca2c
     }
     public class BienToanCuc
     {

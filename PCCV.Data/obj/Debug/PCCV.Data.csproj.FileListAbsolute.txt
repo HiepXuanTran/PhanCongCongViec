@@ -12,6 +12,16 @@ C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PCCV.Data\
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PCCV.Data\obj\Debug\PCCV.Data.csprojResolveAssemblyReference.cache
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PCCV.Data\obj\Debug\PCCV.Data.dll
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PCCV.Data\obj\Debug\PCCV.Data.pdb
+<<<<<<< HEAD
+D:\C#\lvtn\new\PhanCongCongViec\PCCV.Data\bin\Debug\PCCV.Data.dll
+D:\C#\lvtn\new\PhanCongCongViec\PCCV.Data\bin\Debug\PCCV.Data.pdb
+D:\C#\lvtn\new\PhanCongCongViec\PCCV.Data\bin\Debug\PCCV.Public.dll
+D:\C#\lvtn\new\PhanCongCongViec\PCCV.Data\bin\Debug\PCCV.Public.pdb
+D:\C#\lvtn\new\PhanCongCongViec\PCCV.Data\obj\Debug\PCCV.Data.csprojResolveAssemblyReference.cache
+D:\C#\lvtn\new\PhanCongCongViec\PCCV.Data\obj\Debug\PCCV.Data.dll
+D:\C#\lvtn\new\PhanCongCongViec\PCCV.Data\obj\Debug\PCCV.Data.pdb
+D:\C#\lvtn\new\PhanCongCongViec\PCCV.Data\bin\Debug\PCCV.Data.dll.config
+=======
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PhanCongCongViec\PCCV.Data\bin\Debug\PCCV.Data.dll
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PhanCongCongViec\PCCV.Data\bin\Debug\PCCV.Data.pdb
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PhanCongCongViec\PCCV.Data\bin\Debug\PCCV.Public.dll
@@ -19,3 +29,4 @@ C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PhanCongCo
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PhanCongCongViec\PCCV.Data\obj\Debug\PCCV.Data.csprojResolveAssemblyReference.cache
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PhanCongCongViec\PCCV.Data\obj\Debug\PCCV.Data.dll
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PhanCongCongViec\PCCV.Data\obj\Debug\PCCV.Data.pdb
+>>>>>>> fbd2cbb60ce32ac92e1d2d09fce8143fc4c3ca2c

@@ -16,6 +16,17 @@ C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PCCV.BLL\b
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PCCV.BLL\obj\Debug\PCCV.BLL.csprojResolveAssemblyReference.cache
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PCCV.BLL\obj\Debug\PCCV.BLL.dll
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PCCV.BLL\obj\Debug\PCCV.BLL.pdb
+<<<<<<< HEAD
+D:\C#\lvtn\new\PhanCongCongViec\PCCV.BLL\bin\Debug\PCCV.BLL.dll
+D:\C#\lvtn\new\PhanCongCongViec\PCCV.BLL\bin\Debug\PCCV.BLL.pdb
+D:\C#\lvtn\new\PhanCongCongViec\PCCV.BLL\bin\Debug\PCCV.Data.dll
+D:\C#\lvtn\new\PhanCongCongViec\PCCV.BLL\bin\Debug\PCCV.Public.dll
+D:\C#\lvtn\new\PhanCongCongViec\PCCV.BLL\bin\Debug\PCCV.Data.pdb
+D:\C#\lvtn\new\PhanCongCongViec\PCCV.BLL\bin\Debug\PCCV.Public.pdb
+D:\C#\lvtn\new\PhanCongCongViec\PCCV.BLL\obj\Debug\PCCV.BLL.csprojResolveAssemblyReference.cache
+D:\C#\lvtn\new\PhanCongCongViec\PCCV.BLL\obj\Debug\PCCV.BLL.dll
+D:\C#\lvtn\new\PhanCongCongViec\PCCV.BLL\obj\Debug\PCCV.BLL.pdb
+=======
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PhanCongCongViec\PCCV.BLL\bin\Debug\PCCV.BLL.dll
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PhanCongCongViec\PCCV.BLL\bin\Debug\PCCV.BLL.pdb
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PhanCongCongViec\PCCV.BLL\bin\Debug\PCCV.Data.dll
@@ -25,3 +36,4 @@ C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PhanCongCo
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PhanCongCongViec\PCCV.BLL\obj\Debug\PCCV.BLL.csprojResolveAssemblyReference.cache
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PhanCongCongViec\PCCV.BLL\obj\Debug\PCCV.BLL.dll
 C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\PhanCongCongViec\PhanCongCongViec\PCCV.BLL\obj\Debug\PCCV.BLL.pdb
+>>>>>>> fbd2cbb60ce32ac92e1d2d09fce8143fc4c3ca2c

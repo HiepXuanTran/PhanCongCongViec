@@ -44,8 +44,17 @@
     <Compile Include="clsKetNoi.cs" />
     <Compile Include="CV_QL_CongViecData.cs" />
     <Compile Include="CV_QL_NhomCongViecData.cs" />
+<<<<<<< HEAD
+    <Compile Include="CV_TT_NhanSuData.cs" />
+=======
     <Compile Include="CV_TD_LichSuNhomCongViecData.cs" />
+>>>>>>> fbd2cbb60ce32ac92e1d2d09fce8143fc4c3ca2c
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PCCV.Public\PCCV.Public.csproj">
@@ -55,6 +64,13 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
